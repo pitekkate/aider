@@ -131,4 +131,22 @@
         "supports_prompt_caching": true,
         "supports_system_messages": true
     },
+    "openrouter/google/gemini-2.0-flash-thinking-exp": {
+        "max_tokens": 7000000,
+        "max_input_tokens": 128000,
+        "max_output_tokens": 16384,
+        "input_cost_per_token": 0.00000015,
+        "output_cost_per_token": 0.00000060,
+        "input_cost_per_token_batches": 0.000000075,
+        "output_cost_per_token_batches": 0.00000030,
+        "cache_read_input_token_cost": 0.000000075,
+        "litellm_provider": "openrouter",
+        "mode": "chat",
+        "supports_function_calling": true,
+        "supports_parallel_function_calling": true,
+        "supports_response_schema": true,
+        "supports_vision": true,
+        "supports_prompt_caching": true,
+        "supports_system_messages": true
+    },
 }

@@ -482,6 +482,15 @@
   examples_as_sys_msg: true
   editor_edit_format: editor-diff
 
+- name: openrouter/google/gemini-2.0-flash-thinking-exp:free
+  edit_format: diff
+  weak_model_name: openrouter/google/gemini-2.0-flash-thinking-exp
+  use_repo_map: true
+  lazy: true
+  reminder: sys
+  examples_as_sys_msg: true
+  editor_edit_format: editor-diff
+
 - name: openai/o1-mini
   weak_model_name: openai/gpt-4o-mini
   use_repo_map: true
